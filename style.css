@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rocinante Titling", Arial, Helvetica, sans-serif;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('imgs/Hotep.jpeg');
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100% !important;
+    height: 90vh;
+    z-index: 2;
+}
+
+.about p {
+    width: 30%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    color: #707271;
+    text-transform: uppercase;
+    margin: 1.6em;
+}
+
+.wrapper-img {
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin-left: 50%;
+    margin-top: 44.3%;
+    width: 100vw;
+}
+
+
+.music-links {
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin-left: 50%;
+    margin-top: 7%;
+}
+
+.music-link {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.music-links::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.box {
+    background: #12173F;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.sub-header {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sub-header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    color: #707271;
+}
+
+a.contact-link {
+    color: #5D76A9;
+    letter-spacing: -3px;
+    font-family: "Rocinante Titling", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 1em;
+}
+
+a.aboutme {
+    width: 30%;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+}
+
+.block {
+    position: fixed;
+    width: 5%;
+    height: 100vh;
+    background: #12173F;
+}
+
+.block-1 {
+    left: 0;
+}
+
+.block-2 {
+    left: 5%;
+}
+
+.block-3 {
+    left: 10%;
+}
+
+.block-4 {
+    left: 15%;
+}
+
+.block-5 {
+    left: 20%;
+}
+
+.block-6 {
+    left: 25%;
+}
+
+.block-7 {
+    left: 30%;
+}
+
+.block-8 {
+    left: 35%;
+}
+
+.block-9 {
+    left: 40%;
+}
+
+.block-10 {
+    left: 45%;
+}
+
+.block-11 {
+    left: 50%;
+}
+
+.block-12 {
+    left: 55%;
+}
+
+.block-13 {
+    left: 60%;
+}
+
+.block-14 {
+    left: 65%;
+}
+
+.block-15 {
+    left: 70%;
+}
+
+.block-16 {
+    left: 75%;
+}
+
+.block-17 {
+    left: 80%;
+}
+
+.block-18 {
+    left: 85%;
+}
+
+.block-19 {
+    left: 90%;
+}
+
+.block-20 {
+    left: 95%;
+}
+
+@media(max-width: 900px) {
+    .about p {
+        width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #12173F;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    z-index: 100;
+}
+
+header {
+    display: flex;
+    background-color: #5D76A9;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header_logo {
+    color: #FFBB22;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_item {
+    margin: 0 8px;
+}
+
+.nav_link {
+    padding: 10px;
+    color: #eeeeee;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #FFBB22;
+}
+
+.nav_link:hover {
+    background-color: #707271;
+}
+
+.header_toggle,
+.header_close {
+    display: none;
+}
+
+
+@media screen and (max-width: 901px) {
+    .about p {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 48px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+
+    .logo a {
+        font-size: 0.9rem;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .header_toggle {
+        display: inline;
+        color: #eeee;
+        font-size: 24px;
+    }
+
+    .header_close {
+        position: absolute;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+
+    .header_close:hover {
+        background-color: #707271;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: #5D76A9;
+        color: #eeee;
+        width: 60%;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 100;
+        transition: 0.5s;
+        border-radius: 0 0 0 50%;
+    }
+
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_item {
+        margin: 2rem 0;
+    }
+
+    .show {
+        right: 0;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    a.aboutme {
+        font-size: 12px;
+    }
+
+    a.contact-link {
+        font-size: 15px;
+        letter-spacing: -1.5px;
+    }
+
+    a.work-link {
+        font-size: 15px;
+    }
+
+    .music-links {
+        top: 85%;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    a.aboutme {
+        font-size: 10px;
+    }
+
+    a.contact-link {
+        font-size: 10px;
+    }
+
+    a.work-link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .music-link {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .music-links {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .music-links {
+        top: 75%;
+        width: 40%;
+    }
+
+    .music-link {
+        width: 100%;
+    }
+}
