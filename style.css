@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rocinante Titling", Arial, Helvetica, sans-serif;
 
 }
 
@@ -23,7 +22,6 @@ body {
 
 .about p {
     width: 30%;
-    font-family: Helvetica, sans-serif;
     font-weight: 300;
     color: #707271;
     text-transform: uppercase;
@@ -71,7 +69,7 @@ img {
 }
 
 .box {
-    background: #12173F;
+    background: #12173f;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -104,15 +102,13 @@ img {
 .sub-header a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Helvetica, sans-serif;
     font-weight: 300;
-    color: #707271;
+    color: #969696;
 }
 
 a.contact-link {
-    color: #5D76A9;
+    color: #bdbdbd;
     letter-spacing: -3px;
-    font-family: "Rocinante Titling", Arial, Helvetica, sans-serif;
     font-size: 24px;
     margin-left: 1em;
 }
@@ -140,7 +136,7 @@ a.aboutme {
     position: fixed;
     width: 5%;
     height: 100vh;
-    background: #12173F;
+    background: #12173f;
 }
 
 .block-1 {
@@ -233,7 +229,6 @@ a.aboutme {
 
 
 body {
-    font-family: 'Poppins', sans-serif;
     background-color: #12173F;
 }
 
