@@ -1,18 +1,4 @@
-footer {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: auto;
-    background-color: #5D76A9;
+ul li img {
+    width: 100px;
     vertical-align: middle;
-    z-index: 100;
-}
-
-footer img {
-    width: 4%;
 }
