@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Special Elite", cursive;
+    font-family: arial;
     font-weight: 400;
   }
   
@@ -41,7 +41,6 @@
   
   ul li{
     list-style: none;
-    font-family: "Roboto";
     font-size: 5em;
     letter-spacing: 15px;
     color: #484848;
@@ -502,7 +501,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Special Elite", cursive;
     font-weight: 400;
   }
   
